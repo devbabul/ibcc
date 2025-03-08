@@ -1,0 +1,87 @@
+@font-face {
+    font-family: BabulFont;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+body{
+    background: rgb(20, 20, 20);
+}
+
+h1{
+    text-align: center;
+    padding: 30px 20px 30px 0px;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+h1 span{
+    background-color: black;
+    border-radius: 100px;
+    padding: 20px;
+    box-shadow: inset 0 0 10px 5px rgb(2, 190, 159);
+    cursor: url(../img/cursor\ wh.png), auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    place-items: center;
+}
+
+.button-33 {
+    background-color: green;
+    border-radius: 100px;
+    box-shadow: green 0 -25px 18px -14px inset,greenyellow 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-33:hover {
+    box-shadow: greenyellow 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+    cursor: url(../img/cursor\ bl.png), auto;
+  }
+
+  @media (max-width:720px){
+   .tophead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: BabulFont;
+   } 
+   .headings{
+    font-family: BabulFont;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+   }
+
+   .button-33{
+    font-family: BabulFont;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+   }
+
+   .grid{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+  }
